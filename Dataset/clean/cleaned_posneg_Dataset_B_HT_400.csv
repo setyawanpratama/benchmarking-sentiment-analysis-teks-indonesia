@@ -1,0 +1,397 @@
+;teks;label
+0;['amin'];0
+1;['sangka', 'ahok'];0
+2;['wah', 'kampung'];0
+3;['ahok', 'game', 'over'];0
+4;['fpi', 'delete', 'ahok'];0
+5;['ahoak', 'drakula'];0
+6;['maaf', 'ahok', 'game', 'over'];0
+7;['delete', 'ahok', 'penjara', 'ahok'];0
+8;['nah', 'kan', 'kode', 'keras'];0
+9;['basuki', 'game', 'over'];0
+10;['save', 'fpi', 'delete', 'ahok'];0
+11;['basuki', 'game', 'over', 'dong'];0
+12;['ari', 'yusuf', 'yakin', 'ahok', 'jadi', 'sangka'];0
+13;['benar', 'pada', 'gila', 'bela', 'basuki'];0
+15;['apa', 'basuki', 'game', 'over'];0
+16;['adik', 'uje', 'yakin', 'persen', 'ahok', 'sangka'];0
+17;['fadli', 'zon', 'upaya', 'lolos', 'ahok'];0
+18;['tegak', 'adil', 'basuki', 'game', 'over'];0
+19;['acta', 'yakin', 'ahok', 'jadi', 'sangka', 'nista', 'agama'];0
+20;['tahan', 'donk', 'enak', 'sangat', 'sangka', 'keluyur'];0
+21;['moga', 'sukses', 'basuki', 'game', 'over'];0
+22;['alat', 'bukti', 'akan', 'jadi', 'ahok', 'sangka'];0
+23;['save', 'penjara', 'biar', 'lebih', 'aman'];0
+24;['moga', 'jadi', 'referensi', 'kuat', 'ahok', 'jadi', 'sangka'];0
+25;['ahok', 'koruptor', 'ayo', 'save', 'pak', 'ahok'];0
+26;['acara', 'lapor', 'optimis', 'ahok', 'bakal', 'jadi', 'sangka'];0
+27;['duh', 'gala', 'akun', 'anonim', 'ribet', 'ahok'];0
+28;['alas', 'din', 'syamsuddin', 'tolak', 'ahok', 'via'];0
+29;['habib', 'rizieq', 'yakin', 'ahok', 'bakal', 'masuk', 'penjara'];0
+30;['sedih', 'lihat', 'muslim', 'bela', 'ahok', 'mati'];0
+31;['massa', 'fpi', 'kawal', 'gelar', 'perkara', 'ahok', 'mabes'];0
+32;['lkpi', 'elektabilitas', 'ahok', 'urut', 'paling', 'bawah'];0
+33;['apa', 'we', 'tamat', 'ahok', 'basuki', 'game', 'over'];0
+34;['kalau', 'ahok', 'bebas', 'demo'];0
+35;['komisi', 'i', 'curiga', 'bom', 'samarinda', 'alih', 'kasus', 'ahok'];0
+36;['nah', 'lohh', 'dasar', 'ahoak', 'dusta', 'polri', 'netral'];0
+37;['ahok', 'tahu', 'tahu'];0
+38;['kata', 'habib', 'rizieq', 'insya', 'allah', 'ahok', 'sangka'];0
+39;['ajar', 'deh', 'sana', 'basuki', 'game', 'over'];0
+40;['ali', 'yusuf', 'yakin', 'ahok', 'jadi', 'sangka', 'kicaupulitik'];0
+41;['ulama', 'mulai', 'adu', 'domba', 'pihak', 'ahok'];0
+42;['ahok', 'panggil', 'saksi', 'ahli', 'sangka', 'dulu'];0
+43;['polisi', 'bebas', 'ahok', 'mui', 'aju', 'praperadilan'];0
+44;['si', 'mulut', 'jamban', 'ahok', 'basuki', 'game', 'over'];0
+45;['habib', 'rizieq', 'yakin', 'ahok', 'jerat', 'bagai', 'sangka'];0
+46;['kandang', 'mana', 'kandang', 'basuki', 'game', 'over'];0
+47;['jabat', 'cuma', 'lungsur', 'basuki', 'game', 'over'];0
+48;['adil', 'ahok', 'mabes', 'polri', 'sandiwara', 'belaka'];0
+49;['ahok', 'tak', 'salah', 'mui', 'tempuh', 'praperadilan'];0
+50;['munafik', 'sedang', 'kelit', 'basuki', 'game', 'over'];0
+52;['basuki', 'game', 'over', 'maspiyungan', 'nrshint', 'dppfpi'];0
+53;['geger', 'edar', 'surat', 'edar', 'dewan', 'gereja', 'desak', 'ahok', 'mundur'];0
+54;['teman', 'mabuk', 'tipu', 'tipu', 'terus', 'basuki', 'game', 'over'];0
+55;['lihat', 'kalau', 'salah', 'koko', 'usah', 'tunjuk', 'tunjuk'];0
+56;['nalar', 'ahoker', 'tolak', 'ahok', 'arti', 'anti', 'cina', 'anti', 'kristen', 'adp'];0
+57;['kan', 'memang', 'boleh', 'mundur', 'basuki', 'game', 'over'];0
+58;['kalau', 'ahok', 'sangka', 'siap', 'siap', 'hadap', 'kuat', 'besar'];0
+59;['basuki', 'game', 'over', 'maspiyungan', 'pisangimpor', 'nrshint'];0
+60;['mui', 'ahok', 'jadi', 'sangka', 'polisi', 'cap', 'leceh', 'umat', 'islam'];0
+61;['ikut', 'gelar', 'perkara', 'habib', 'rizieq', 'yakin', 'ahok', 'jadi', 'sangka'];0
+62;['adil', 'ahok', 'indonesia', 'damai', 'lewat'];0
+63;['penjara', 'ahok', 'kita', 'hidup', 'caci', 'maki'];0
+64;['kasus', 'ahok', 'polri', 'netral', 'kalau', 'kita', 'turun', 'jalan'];0
+65;['din', 'salah', 'ahok', 'kok', 'buni', 'yani', 'mau', 'jadi', 'sangka'];0
+66;['mungkin', 'takut', 'dengar', 'takbir', 'kumandang', 'ruang'];0
+67;['nyata', 'kental', 'bagai', 'jubir', 'ahok', 'basuki', 'game', 'over'];0
+68;['mereka', 'selalu', 'lindung', 'bhineka', 'tunggal', 'ika', 'pancasila'];0
+69;['gelar', 'perkara', 'ahok', 'nilai', 'profesional', 'basuki', 'game', 'over'];0
+70;['ini', 'ahok', 'tolak', 'warga', 'di', 'cintek', 'kel', 'ciracas', 'jaktim'];0
+71;['jokowi', 'bilang', 'jadi', 'ahok', 'sangka', 'tanya', 'megawati', 'dulu'];0
+72;['pak', 'perintah', 'kan', 'tangkap', 'ahok', 'keluarga', 'kroni', 'nya', 'cepat'];0
+73;['basuki', 'game', 'over', 'maspiyungan', 'pisangimpor', 'nrshint', 'lanjut'];0
+74;['ikut', 'gelar', 'perkara', 'habib', 'rizieq', 'insya', 'allah', 'ahok', 'masuk', 'penjara'];0
+75;['lama', 'kalau', 'mirip', 'firaun', 'mas', 'garangan', 'basuki', 'game', 'over'];0
+76;['main', 'sandiwara', 'banyak', 'sudah', 'hafal', 'sepak', 'terjang', 'ahoker'];0
+77;['basuki', 'game', 'over', 'maspiyungan', 'pisangimpor', 'nrshint', 'hukum', 'lah'];0
+78;['kpu', 'dki', 'tim', 'kampanye', 'ahok', 'pandai', 'jangan', 'cari', 'kambing', 'hitam'];0
+79;['datang', 'mabes', 'polri', 'habiburokhman', 'yakin', 'perkara', 'ahok', 'naik', 'sidik'];0
+80;['ikut', 'gelar', 'perkara', 'ahok', 'neno', 'warisman', 'bahasa', 'bukti', 'nista'];0
+81;['jadi', 'saksi', 'ahli', 'lapor', 'habib', 'rizieq', 'insya', 'allah', 'ahok', 'masuk', 'penjara'];0
+82;['masalah', 'sepele', 'kok', 'bikin', 'ruwet', 'sih', 'tangkap', 'ahok', 'beres'];0
+83;['kasih', 'deh', 'kamu', 'syukur', 'basuki', 'game', 'over', 'penjara', 'ahok'];0
+84;['lieus', 'sungkarisma', 'bulan', 'jadi', 'gubernur', 'ahok', 'kerja', 'bikin', 'ribut'];0
+85;['dukung', 'ahok', 'jadi', 'kutu', 'loncat', 'fitnah', 'sana', 'sini'];0
+86;['mahfud', 'md', 'polisi', 'boleh', 'tafsir', 'kasus', 'nista', 'agama', 'ahok', 'mahfud'];0
+87;['fpi', 'sibuk', 'bentuk', 'korban', 'banjir', 'teman', 'ahok', 'teman', 'mabuk', 'ahok', 'mana'];0
+88;['geram', 'ahok', 'warga', 'tanah', 'abang', 'pasang', 'baliho', 'besar', 'panjang', 'jalan'];0
+89;['hati', 'hati', 'mas', 'banyak', 'suka', 'sama', 'ahok', 'kamu', 'ajak', 'demo'];0
+90;['logika', 'sama', 'mas', 'nalar', 'awam', 'dukung', 'ahok', 'anti', 'islam'];0
+91;['kibul', 'kabul', 'kibul', 'kibul', 'basuki', 'game', 'over', 'basuki', 'game', 'over'];0
+92;['makin', 'jokowi', 'kesan', 'diri', 'bela', 'ahok', 'marah', 'rakyat', 'makin', 'tak', 'kendali'];0
+93;['awal', 'dukung', 'sekarang', 'anti', 'ahok', 'via', 'lah', 'dukung', 'model', 'apa'];0
+94;['linting', 'lengan', 'baju', 'betul', 'sarung', 'siap', 'tunggu', 'komando', 'jihad', 'ulama'];0
+95;['banyak', 'teori', 'coba', 'tangkap', 'ahok', 'kasus', 'korupsi', 'berani'];0
+96;['unsur', 'pidana', 'penuh', 'tim', 'advokasi', 'mui', 'minta', 'ahok', 'segera', 'tetap', 'bagai', 'sangka'];0
+97;['tiap', 'buat', 'minta', 'tanggung', 'jawab', 'kelak', 'akhirat', 'basuki', 'game', 'over'];0
+98;['tahu', 'dong', 'debat', 'cagub', 'bongkar', 'busuk', 'ahok', 'semua', 'ahok'];0
+99;['neno', 'warisman', 'kuat', 'ucap', 'ahok', 'unsur', 'nista', 'agama', 'sindo', 'news', 'emo'];0
+100;['belum', 'tolak', 'ahok', 'kampung', 'mayat', 'ini', 'basuki', 'game', 'over'];0
+101;['ahok', 'kok', 'tega', 'bicara', 'peleset', 'ada', 'bablas', 'bela'];0
+102;['allah', 'akbar', 'musnah', 'rusak', 'bangsa', 'ara', 'save', 'fpi', 'delete', 'ahok'];0
+103;['ahok', 'sangka', 'umat', 'islam', 'tak', 'demo', 'november', 'syukur', 'haji', 'akbar'];0
+104;['warga', 'tolak', 'kampanye', 'ahok', 'sosiolog', 'mulut', 'harimau'];0
+105;['gelar', 'perkara', 'kasus', 'ahok', 'ulama', 'mesir', 'pulang', 'habib', 'rizieq', 'yakin', 'ahok', 'sangka'];0
+106;['basuki', 'game', 'over', 'maspiyungan', 'pisangimpor', 'nrshint', 'adil', 'dulu', 'baru', 'damai'];0
+107;['insya', 'allah', 'hukum', 'tindak', 'adil', 'ahok', 'masuk', 'penjara', 'basuki', 'game', 'over'];0
+108;['bagaimana', 'kalau', 'ahok', 'sang', 'langsung', 'proses', 'hukum', 'cara', 'agama', 'nista'];0
+109;['kalo', 'ahok', 'sangka', 'tetap', 'ikut', 'pilkada', 'besok', 'demo', 'pindah', 'depan', 'kpu'];0
+110;['kalau', 'memang', 'ahok', 'salah', 'penjara', 'indonesia', 'damai', 'majemuk'];0
+111;['jangan', 'hanya', 'lindung', 'nista', 'halal', 'gala', 'cara', 'basuki', 'game', 'over'];0
+112;['sosiolog', 'ahok', 'lolos', 'jerat', 'hukum', 'sangat', 'bahaya', 'basuki', 'game', 'over'];0
+113;['haha', 'pasti', 'dukung', 'si', 'ahok', 'lindung', 'bhineka', 'tunggal', 'ika', 'rasa', 'zalim'];0
+114;['mau', 'tanya', 'bela', 'ahok', 'cukong', 'kembang', 'reklamasi', 'sebelas', 'belas', 'sik'];0
+115;['gagal', 'paham', 'baca', 'begini', 'media', 'sama', 'basuki', 'game', 'over'];0
+116;['sekarang', 'terima', 'akibat', 'basuki', 'game', 'over'];0
+117;['basuki', 'game', 'over', 'maspiyungan', 'pisangimpor', 'nrshint', 'cobeh', 'rontok', 'brindili'];0
+118;['alas', 'din', 'syamsuddin', 'tolak', 'ahok', 'via', 'basuki', 'game', 'over', 'gelar', 'perkara', 'ahok'];0
+119;['contoh', 'orang', 'tidak', 'terap', 'budaya', 'santun', 'indonesia', 'basuki', 'game', 'over'];0
+120;['ada', 'biar', 'ahok', 'lindung', 'terus', 'sebar', 'benci', 'rakyat', 'jakarta'];0
+121;['cepat', 'sekali', 'allah', 'tunjuk', 'kuasa', 'bulan', 'kemarin', 'gusur', 'warga', 'kini', 'balik', 'gusur'];0
+122;['kira', 'siapa', 'intelektual', 'rupa', 'ahoker', 'bawa', 'nu', 'bang', 'baca'];0
+123;['si', 'nista', 'agama', 'alias', 'ahok', 'mau', 'kampanye', 'tolak', 'mana', 'mana', 'mampus', 'eh', 'kasihan'];0
+124;['moga', 'jokowi', 'dengar', 'aspirasi', 'rakyat', 'tahan', 'jam', 'save', 'fpi', 'delete', 'ahok', 'apa', 'ha', 'ha'];0
+125;['habis', 'mau', 'tunggu', 'suara', 'ahok', 'jamban', 'tidak', 'lah', 'ahoker', 'hidup', 'nafas', 'dusta'];0
+126;['nah', 'kalau', 'ahok', 'di', 'tangkap', 'ada', 'gembos', 'mui', 'makan', 'haram', 'semua'];0
+127;['masalah', 'bukan', 'saja', 'di', 'buat', 'ahoak', 'bro', 'berapa', 'x', 'bikin', 'leceh', 'alquran'];0
+128;['aneh', 'nyata', 'sempat', 'koordinasi', 'jadi', 'sinkron', 'basuki', 'game', 'over'];0
+129;['pangi', 'syarwi', 'chaniago', 'nilai', 'ahok', 'bebas', 'tutup', 'mungkin', 'parlemen', 'jalan', 'jadi'];0
+130;['segera', 'tetap', 'jadi', 'sangka', 'cepat', 'bukti', 'tidak', 'adil', 'terlalu', 'banyak'];0
+131;['telak', 'dukung', 'ahok', 'seru', 'bubar', 'fpi', 'netizen', 'jawab', 'save', 'fpi', 'delete', 'ahok'];0
+132;['periksa', 'nista', 'agama', 'proses', 'butuh', 'waktu', 'tahun', 'cahaya', 'lot', 'basuki', 'game', 'over'];0
+133;['nasib', 'mu', 'golkar', 'pegang', 'orang', 'novanto', 'satu', 'species', 'ahok', 'sama', 'cina'];0
+134;['berita', 'baca', 'y', 'salah', 'nya', 'ahok', 'buka', 'aib', 'orang', 'bukan', 'nista', 'agama', 'biar', 'pintar'];0
+135;['basuki', 'game', 'over', 'maspiyungan', 'pisangimpor', 'nrshint', 'bela', 'islam', 'bukan', 'debat'];0
+136;['logika', 'sama', 'mas', 'nalar', 'hater', 'ahok', 'dukung', 'ahok', 'arti', 'anti', 'bhineka', 'anti', 'islam'];0
+137;['demo', 'dukung', 'ahok', 'pakai', 'slogan', 'jaga', 'bhineka', 'benar', 'siapa', 'sudah', 'rusak', 'bhineka'];0
+138;['biasa', 'kubu', 'a', 'hoax', 'kalau', 'pepet', 'pakai', 'jurus', 'pura', 'pura', 'bodoh', 'basuki', 'game', 'over'];0
+139;['basuki', 'game', 'over', 'jelas', 'habib', 'rizieq', 'soal', 'hasil', 'gelar', 'perkara', 'ahok'];0
+140;['sang', 'buya', 'aku', 'muncul', 'prahara', 'besar', 'arti', 'sang', 'buya', 'aku', 'kalau', 'ahok', 'sumber', 'masalah'];0
+141;['basuki', 'game', 'over', 'maspiyungan', 'pisangimpor', 'nrshint', 'laku', 'basuki', 'tiap', 'hari', 'tantang', 'orang'];0
+142;['ahok', 'pemuda', 'bani', 'tamim', 'bangsa', 'islam', 'akhir', 'zaman', 'khilafah', 'islam', 'dim', 'apa', 'for', 'nation', 'state'];0
+143;['gilir', 'yang', 'tinggal', 'kubu', 'ahok', 'ahoker', 'sok', 'soleh', 'kalian', 'yang', 'picik'];0
+144;['ahok', 'terima', 'sama', 'populasi', 'orang', 'jakarta', 'saja', 'kamu', 'senang', 'kasih', 'deh'];0
+145;['iya', 'ahok', 'memang', 'koruptor', 'beli', 'lahan', 'sendiri', 'uang', 'mana', 'apa', 'ayo', 'save', 'pak', 'ahok'];0
+146;['hashtag', 'cocok', 'buat', 'ahok', 'tetap', 'jadi', 'sangka', 'basuki', 'game', 'over', 'polri', 'netral'];0
+147;['paksa', 'buat', 'buat', 'apabila', 'ahok', 'kata', 'nista', 'dan', 'hina', 'alquran', 'islam', 'ulama', 'indonesia'];0
+148;['djarot', 'salah', 'salah', 'ahok', 'apa', 'orang', 'salah', 'di', 'ikut', 'sungguh', 'aneh'];0
+149;['ahoak', 'lepas', 'hukum', 'dunia', 'ingat', 'hukum', 'akhirat', 'lebih', 'kejam', 'basuki', 'game', 'over'];0
+150;['coba', 'kalau', 'jadi', 'hadir', 'ulama', 'mesir', 'nya', 'ahok', 'aku', 'kan', 'kepalang', 'malu', 'jadi', 'ngeles'];0
+151;['ahok', 'kuat', 'kkn', 'nya', 'kota', 'tua', 'mau', 'kuasa', 'istri', 'adik', 'taman', 'ahok', 'catut', 'apbd', 'bisnis', 'barang'];0
+152;['alibi', 'kalau', 'nyata', 'ahok', 'benar', 'arti', 'polri', 'usaha', 'lindung', 'ahok', 'ahli', 'mesir', 'polri', 'netral'];0
+153;['insya', 'allah', 'ahok', 'masuk', 'penjara', 'masuk', 'habib', 'rizieq', 'yakin', 'usai', 'gelar', 'perkara', 'ahok', 'akan'];0
+154;['ibu', 'ibu', 'komplek', 'inisiasi', 'spanduk', 'tolak', 'ahok', 'kata', 'gerah', 'basuki', 'game', 'over'];0
+155;['basuki', 'game', 'over', 'ikut', 'gelar', 'perkara', 'ahok', 'neno', 'warisman', 'bahasa', 'bukti', 'nista'];0
+156;['wah', 'nyata', 'benar', 'akhir', 'nya', 'kamu', 'sadar', 'ahok', 'koruptor', 'rusak', 'pancasila', 'ayo', 'save', 'pak', 'ahok'];0
+157;['semua', 'kepala', 'dinas', 'main', 'kaki', 'juga', 'info', 'saya', 'busuk', 'ahok', 'sabar', 'ahok'];0
+158;['kalau', 'begini', 'belum', 'sangka', 'weh', 'minta', 'umat', 'islam', 'padat', 'bunderan', 'patung', 'kuda', 'ini'];0
+159;['kalau', 'dulu', 'kampanye', 'pakai', 'slogan', 'kenal', 'orang', 'sekarang', 'ubah', 'kenal', 'mulut', 'basuki', 'game', 'over'];0
+160;['jangan', 'mau', 'bohong', 'kapolri', 'pakai', 'ahoak', 'jangan', 'mau', 'bohong', 'ahoak', 'pakai', 'kapolri', 'jangan', 'mau', 'bohong', 'media', 'pakai'];0
+161;['maksud', 'fakta', 'apa', 'jangan', 'mau', 'bohong', 'pakai', 'ayat', 'al', 'quran', 'maksud', 'fakta', 'arti', 'ahok', 'salah', 'dong'];0
+162;['pak', 'jangan', 'sibuk', 'urus', 'ahok', 'rakyat', 'jadi', 'korban', 'politik', 'mu', 'basuki', 'game', 'over'];0
+163;['kaya', 'sih', 'ahok', 'benar', 'dia', 'pernah', 'salah', 'bukti', 'detik', 'lewat', 'terus', 'kasus'];0
+164;['pula', 'si', 'ahok', 'kan', 'bicara', 'nya', 'pakai', 'bahas', 'indonesia', 'mas', 'bukan', 'pakai', 'bahas', 'mesir', 'suka', 'heran'];0
+165;['orang', 'aku', 'islam', 'mati', 'bela', 'ahok', 'tega', 'bentak', 'salah', 'ulama', 'lain', 'karena', 'tak'];0
+166;['bukan', 'masalah', 'personal', 'masalah', 'nista', 'agama', 'ahok', 'umat', 'islam', 'jangan', 'pelintir'];0
+167;['tobat', 'tegak', 'benar', 'adil', 'karir', 'hancur', 'kamu', 'hancur', 'akhirat', 'basuki', 'game', 'over'];0
+168;['banyak', 'percaya', 'duga', 'gelar', 'perkara', 'ahok', 'basa', 'basi', 'ayo', 'taruh', 'kredibilitas', 'polri'];0
+169;['amin', 'basuki', 'game', 'over', 'status', 'facebook', 'politis', 'nasdem', 'yakin', 'rabu', 'ahok', 'umum', 'jadi', 'sangka'];0
+170;['alhamdulillah', 'hidup', 'damai', 'tentram', 'beda', 'ada', 'masalah', 'lama', 'ambisi', 'sombong', 'ahok'];0
+171;['memang', 'ahok', 'erti', 'tafsir', 'kalau', 'ada', 'beda', 'memang', 'leceh', 'salah', 'satu', 'tafsir', 'sebut'];0
+172;['orang', 'tua', 'bahagia', 'dengar', 'anak', 'maki', 'tak', 'sopan', 'si', 'ahok', 'kalau', 'mungkin', 'ikut', 'tatar', 'p'];0
+173;['kritik', 'basa', 'basi', 'tanya', 'lah', 'hati', 'mu', 'ada', 'jago', 'blunder', 'jelang', 'pilkada', 'salah', 'dia', 'nista', 'alquran'];0
+174;['ahok', 'habis', 'rizieq', 'ada', 'masalah', 'pribadi', 'murni', 'duga', 'nista', 'agama', 'proses', 'hukum', 'polisi', 'benar'];0
+175;['bodoh', 'dukung', 'ahok', 'bicara', 'soal', 'bhineka', 'nkri', 'pancasila', 'padahal', 'orang', 'rusak', 'ahok', 'sendiri'];0
+176;['hebat', 'besar', 'apa', 'kuasa', 'tak', 'kan', 'mungkin', 'mampu', 'lawan', 'rakyat', 'gelar', 'perkara', 'ahok', 'cepat', 'umat', 'jihad'];0
+177;['bukan', 'masalah', 'ahok', 'rizieq', 'orang', 'tolol', 'nilai', 'masalah', 'nista', 'harus', 'adil'];0
+178;['apa', 'sorry', 'i', 'have', 'to', 'say', 'rawan', 'ahok', 'djarot', 'ikut', 'blusuk', 'lihat', 'ramai', 'narsis', 'sendiri'];0
+179;['nyata', 'undang', 'nya', 'pdip', 'p', 'heran', 'sih', 'kronologi', 'ulama', 'mesir', 'batal', 'datang', 'gelar', 'perkara', 'ahok'];0
+180;['mohon', 'tenang', 'dulu', 'team', 'ahok', 'pintar', 'dalam', 'acara', 'pidana', 'tidak', 'istilah', 'mediasi', 'ada', 'perdata', 'jangan'];0
+181;['ajar', 'semua', 'sombong', 'ahok', 'allah', 'swt', 'tegur', 'nya', 'kalau', 'sadar', 'tunggu', 'episode', 'ikut', 'nya'];0
+182;['ahok', 'ketiban', 'rejeki', 'blueprint', 'bangun', 'rpjmd', 'buat', 'foke', 'ahok', 'tinggal', 'eksekusi', 'harus', 'pikir', 'ahok'];0
+183;['bukti', 'blingsatan', 'kubu', 'ahok', 'media', 'aparat', 'ahoker', 'cebong', 'semua', 'jadi', 'salah', 'tingkah', 'ahokgameover'];0
+184;['alat', 'bukti', 'credible', 'gitu', 'banyak', 'terus', 'polisi', 'malah', 'cari', 'ahli', 'ringan', 'kalau', 'ujung', 'masuk', 'adil'];0
+185;['apa', 'khayal', 'bodoh', 'mana', 'orang', 'percaya', 'penuh', 'skandal', 'bilang', 'bersih', 'ahok', 'koruptor', 'ayo', 'save', 'pak', 'ahok'];0
+186;['jelas', 'habib', 'rizieq', 'soal', 'hasil', 'gelar', 'perkara', 'ahok', 'tangkap', 'ahok', 'bela', 'alquran', 'aksibelaquran'];0
+187;['bukan', 'soal', 'beda', 'seteru', 'konflik', 'individu', 'sederhana', 'ahok', 'nista', 'agama', 'beri', 'adil'];0
+188;['ada', 'khawatir', 'amat', 'sangat', 'demo', 'agenda', 'tangkap', 'ahok', 'lengser', 'jokowi', 'moga', 'demo', 'lebih'];0
+189;['bila', 'ibarat', 'ahok', 'ibarat', 'genteng', 'pecah', 'ganti', 'biar', 'genteng', 'pecah', 'akan', 'buat', 'isi', 'rumah', 'hancur', 'kena', 'badai'];0
+190;['karena', 'lidah', 'keseleo', 'orang', 'stabilitas', 'ara', 'ancam', 'konflik', 'batin', 'benci', 'fitnah', 'tebar', 'basuki', 'game', 'over'];0
+191;['tahu', 'berita', 'benar', 'tidak', 'seperti', 'masuk', 'akal', 'luar', 'biasa', 'dan', 'kini', 'pns', 'dki', 'tolak', 'ahok'];0
+192;['kalo', 'twitter', 'ramai', 'bain', 'ahoak', 'karena', 'modus', 'cuma', 'ngarepin', 'hadiah', 'kuis', 'wkwk', 'basuki', 'game', 'over'];0
+193;['wahai', 'ahok', 'perintah', 'rezim', 'munafik', 'ingat', 'pilkada', 'hak', 'pilih', 'masih', 'jauh', 'tak', 'kait', 'nya', 'satu', 'adil'];0
+194;['gelar', 'perkara', 'apa', 'ahli', 'tafsir', 'banyak', 'motif', 'tuju', 'ahok', 'bicara', 'yang', 'perlu', 'selisik', 'ahok', 'bentur', 'ahli'];0
+195;['ada', 'bukti', 'jelas', 'jelas', 'saksi', 'ahli', 'bidang', 'agama', 'pidana', 'bahasa', 'nista', 'agama', 'ahok', 'polri', 'netral'];0
+196;['sulit', 'kata', 'akan', 'bela', 'ahok', 'sejarah', 'manuver', 'politik', 'untung', 'ahok', 'wajar', 'curiga', 'apa', 'penting', 'ahok', 'buat'];0
+197;['lidah', 'nista', 'agama', 'sakit', 'umat', 'agama', 'bukan', 'pulau', 'ribu', 'bagaimana', 'buku', 'tahun', 'lalu', 'basuki', 'game', 'over'];0
+198;['cara', 'langsung', 'tuduh', 'umat', 'islam', 'pecah', 'belah', 'bangsa', 'padahal', 'kunci', 'satu', 'nkri', 'di', 'sendiri', 'tangkap', 'ahok'];0
+199;['sulit', 'bilang', 'kasus', 'ahok', 'intervensi', 'presiden', 'menkopolhukam', 'menkumham', 'jaksa', 'agung', 'asal', 'partai', 'usung', 'ahok', 'polisiharusnetral'];0
+200;['pak', 'ahok', 'beri', 'nyaman', 'ayo', 'save', 'pak', 'ahok'];1
+201;['pak', 'ahok', 'is', 'the', 'best', 'ayo', 'save', 'pak', 'ahok'];1
+202;['pak', 'ahok', 'kerja', 'nyata', 'ayo', 'save', 'pak', 'ahok'];1
+203;['ylbhi', 'jokowi', 'jangan', 'korban', 'ahok', 'tekan', 'massa'];1
+204;['pak', 'ahok', 'baik', 'hati', 'ayo', 'save', 'pak', 'ahok'];1
+205;['ahok', 'cuti', 'tanah', 'abang', 'macet', 'ahok', 'ahok'];1
+206;['pak', 'ahok', 'orang', 'rakyat', 'ayo', 'save', 'pak', 'ahok'];1
+207;['cathy', 'sharon', 'pilih', 'ahok', 'kamu', 'masa'];1
+208;['pak', 'ahok', 'beri', 'jelas', 'ayo', 'save', 'pak', 'ahok'];1
+209;['pak', 'ahok', 'orang', 'adil', 'ayo', 'save', 'pak', 'ahok'];1
+210;['cathy', 'sharon', 'nyata', 'ahok', 'orang', 'lucu', 'ahok', 'pilkadadki'];1
+211;['pak', 'ahok', 'bukan', 'nista', 'ayo', 'save', 'pak', 'ahok'];1
+212;['pak', 'ahok', 'orang', 'sabar', 'ayo', 'save', 'pak', 'ahok'];1
+213;['pak', 'ahok', 'galak', 'ayo', 'save', 'pak', 'ahok'];1
+214;['pak', 'ahok', 'bukan', 'jahat', 'ayo', 'save', 'pak', 'ahok'];1
+215;['pak', 'ahok', 'orang', 'tulus', 'ayo', 'save', 'pak', 'ahok'];1
+216;['go', 'vote', 'for', 'bapak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+217;['yorrys', 'sebut', 'golkar', 'tetap', 'dukung', 'ahok', 'pilgub', 'dki'];1
+218;['lebih', 'baik', 'ahok', 'jadi', 'sangka', 'biar', 'alas'];1
+219;['ahok', 'djarot', 'tolak', 'warga', 'ruhut', 'tak', 'gentar'];1
+220;['semangat', 'terus', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+221;['pak', 'ahok', 'orang', 'wibawa', 'ayo', 'save', 'pak', 'ahok'];1
+222;['pak', 'ahok', 'taat', 'hukum', 'ayo', 'save', 'pak', 'ahok'];1
+223;['pak', 'ahok', 'orang', 'sahaja', 'ayo', 'save', 'pak', 'ahok'];1
+224;['ayo', 'save', 'pak', 'ahok', 'dukung', 'kakak', 'angkat', 'ahok'];1
+225;['always', 'vote', 'you', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+226;['golkar', 'tegur', 'aburizal', 'bakrie', 'soal', 'nyata', 'ahok'];1
+227;['pak', 'ahok', 'orang', 'sahabat', 'ayo', 'save', 'pak', 'ahok'];1
+228;['pak', 'ahok', 'pasti', 'menang', 'ayo', 'save', 'pak', 'ahok'];1
+229;['pak', 'ahok', 'orang', 'disiplin', 'ayo', 'save', 'pak', 'ahok'];1
+230;['moga', 'pak', 'ahok', 'dari', 'benar', 'save', 'pak', 'ahok'];1
+231;['pak', 'ahok', 'orang', 'bijaksana', 'ayo', 'save', 'pak', 'ahok'];1
+232;['pak', 'ahok', 'punya', 'kerja', 'oke', 'ayo', 'save', 'pak', 'ahok'];1
+233;['takut', 'saing', 'saja', 'inti', 'ahokhormatihukum'];1
+234;['salut', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+235;['tim', 'sukses', 'ahok', 'moga', 'ahok', 'tak', 'kena', 'yang', 'rugi', 'juang'];1
+236;['program', 'apa', 'mas', 'tim', 'ahok', 'cukup', 'pamer', 'hasil', 'karya', 'nya'];1
+237;['bukti', 'nyata', 'pihak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+238;['ada', 'seperti', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+239;['pak', 'ahok', 'orang', 'lapang', 'dada', 'ayo', 'save', 'pak', 'ahok'];1
+240;['tara', 'institute', 'ahok', 'laku', 'tindak', 'pidana', 'nista', 'agama'];1
+241;['p', 'djan', 'faridz', 'kontrak', 'politik', 'ahok', 'tak', 'gugur'];1
+242;['pak', 'ahok', 'orang', 'konsekuen', 'ayo', 'save', 'pak', 'ahok'];1
+243;['pak', 'ahok', 'tegas', 'santai', 'ayo', 'save', 'pak', 'ahok'];1
+244;['sistematis', 'sekali', 'cara', 'lawan', 'halang', 'kampanye', 'ahok'];1
+245;['tatap', 'lurus', 'depan', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+246;['pak', 'ahok', 'kerja', 'rakyat', 'ayo', 'save', 'pak', 'ahok'];1
+247;['pak', 'ahok', 'suka', 'basa', 'basi', 'ayo', 'save', 'pak', 'ahok'];1
+248;['pak', 'ahok', 'jasa', 'jakarta', 'ayo', 'save', 'pak', 'ahok'];1
+249;['pak', 'ahok', 'aktivis', 'nasional', 'ayo', 'save', 'pak', 'ahok'];1
+250;['pak', 'ahok', 'orang', 'anti', 'korupsi', 'ayo', 'save', 'pak', 'ahok'];1
+251;['pak', 'ahok', 'orang', 'sombong', 'ayo', 'save', 'pak', 'ahok'];1
+252;['pak', 'ahok', 'jauh', 'kapitalisme', 'ayo', 'save', 'pak', 'ahok'];1
+253;['jakarta', 'sepi', 'ada', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+254;['dosen', 'fikom', 'unpad', 'ungkap', 'alas', 'banyak', 'media', 'pro', 'ahok'];1
+255;['alas', 'banyak', 'media', 'dukung', 'ahok', 'gelar', 'perkara'];1
+256;['pak', 'ahok', 'pimpin', 'idam', 'idam', 'ayo', 'save', 'pak', 'ahok'];1
+257;['tolak', 'massa', 'bayar', 'suruh', 'ayo', 'save', 'pak', 'ahok'];1
+258;['salut', 'pak', 'ahok', 'pakai', 'ayo', 'save', 'pak', 'ahok'];1
+259;['pak', 'ahok', 'tindak', 'maju', 'jakarta', 'ayo', 'save', 'pak', 'ahok'];1
+260;['p', 'djan', 'faridz', 'kontrak', 'politik', 'ahok', 'tak', 'gugur', 'jaka'];1
+261;['semangat', 'jangan', 'serah', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+262;['salut', 'adik', 'doa', 'pak', 'ahok', 'pak', 'djarot', 'lewat', 'uji'];1
+263;['pak', 'ahok', 'really', 'really', 'really', 'really', 'pahlawan', 'for', 'dki', 'jaka'];1
+264;['pak', 'ahok', 'amazing', 'sangat', 'sumpah', 'ayo', 'save', 'pak', 'ahok'];1
+265;['cathy', 'sharon', 'suka', 'dekat', 'ahok', 'selebriti', 'cathy', 'sharon', 'aku', 'sangat'];1
+266;['pak', 'ahok', 'pimpin', 'tepat', 'jakarta', 'ayo', 'save', 'pak', 'ahok'];1
+267;['edit', 'video', 'pak', 'ahok', 'muka', 'jelek', 'ayo', 'save', 'pak', 'ahok'];1
+268;['kalau', 'ahok', 'jadi', 'sangka', 'tikus', 'dewan', 'kembung', 'savenkri'];1
+269;['pak', 'ahok', 'pimpin', 'rakyat', 'ayo', 'save', 'pak', 'ahok'];1
+270;['pak', 'hayono', 'isman', 'ciracas', 'sama', 'ibu', 'rawan', 'badja', 'darma'];1
+271;['pak', 'ahok', 'gaul', 'ramah', 'warga', 'ayo', 'save', 'pak', 'ahok'];1
+272;['jadi', 'cuma', 'ber', 'punya', 'masalah', 'yang', 'demo', 'juta'];1
+273;['p', 'djan', 'faridz', 'kontrak', 'politik', 'ahok', 'tak', 'gugur', 'via'];1
+274;['kalau', 'bukan', 'ahok', 'jakarta', 'sampah', 'ayo', 'save', 'pak', 'ahok'];1
+275;['pak', 'ahok', 'peduli', 'sama', 'butuh', 'ayo', 'save', 'pak', 'ahok'];1
+276;['pak', 'ahok', 'tegas', 'tindak', 'jujur', 'adil', 'ayo', 'save', 'pak', 'ahok'];1
+277;['ayo', 'gabung', 'parade', 'bela', 'ahok', 'ahok', 'indonesia', 'lancar', 'jaya', 'no', 'sara'];1
+278;['dosen', 'fikom', 'unpad', 'ungkap', 'alas', 'banyak', 'media', 'pro', 'ahok', 'via'];1
+279;['ruhut', 'tak', 'khawatir', 'hadap', 'jalan', 'gelar', 'perkara', 'kasus', 'ahok', 'bareskrim'];1
+280;['pak', 'ahok', 'luar', 'biasa', 'bidang', 'apa', 'ayo', 'save', 'pak', 'ahok'];1
+281;['apa', 'takut', 'ahok', 'menang', 'pilgub', 'fair', 'dong', 'bukti', 'tps'];1
+282;['pak', 'ahok', 'pimpin', 'anti', 'korupsi', 'ayo', 'save', 'pak', 'ahok'];1
+283;['sama', 'pak', 'ahok', 'bukan', 'janji', 'bukti', 'ayo', 'save', 'pak', 'ahok'];1
+284;['keukeuh', 'tetap', 'dukung', 'ahok', 'pilkada', 'dki', 'jakarta', 'pdip', 'tetap', 'kokoh'];1
+285;['pak', 'ahok', 'orang', 'kristiani', 'cinta', 'santri', 'ayo', 'save', 'pak', 'ahok'];1
+286;['ahok', 'tiru', 'nanti', 'pak', 'tetangga', 'belah', 'sukses', 'selalu'];1
+287;['ahok', 'politisasi', 'agama'];1
+288;['si', 'mamah', 'heboh', 'benar', 'cerita', 'pas', 'ke', 'jatiara', 'doi', 'ketemu', 'pak', 'ahok'];1
+289;['pak', 'ahok', 'yang', 'tegas', 'berantas', 'korupsi', 'ayo', 'save', 'pak', 'ahok'];1
+290;['pak', 'ahok', 'takut', 'resiko', 'datang', 'ayo', 'save', 'pak', 'ahok'];1
+292;['pak', 'ahok', 'orang', 'jujur', 'tindak', 'ayo', 'save', 'pak', 'ahok'];1
+293;['pak', 'ahok', 'visi', 'maju', 'maju', 'jakarta', 'lebih', 'baik', 'ayo', 'save', 'pak', 'ahok'];1
+294;['pak', 'ahok', 'gubernur', 'jakarta', 'etnis', 'tionghoa', 'pertama', 'ayo', 'save', 'pak', 'ahok'];1
+295;['pak', 'ahok', 'pasti', 'kok', 'kendali', 'jakarta', 'ayo', 'save', 'pak', 'ahok'];1
+296;['pak', 'ahok', 'pimpin', 'hebat', 'tepat', 'jakarta', 'ayo', 'save', 'pak', 'ahok'];1
+297;['asal', 'bukan', 'ahok', 'apa', 'nista', 'agama', 'bersamabelankri', 'jagapancasila'];1
+298;['pak', 'ahok', 'orang', 'tegas', 'yang', 'salah', 'ayo', 'save', 'pak', 'ahok'];1
+299;['butuh', 'pimpin', 'kaya', 'pak', 'ahok', 'maju', 'terus', 'ayo', 'save', 'pak', 'ahok'];1
+300;['rasa', 'sama', 'gafatar', 'syiah', 'ahmadiah', 'seperti', 'ahok', 'tuntut'];1
+301;['kerja', 'sama', 'pak', 'ahok', 'luar', 'biasa', 'bidang', 'apa', 'ayo', 'save', 'pak', 'ahok'];1
+302;['terus', 'bangun', 'jakarta', 'pak', 'ahok', 'siap', 'dukung', 'mu', 'ayo', 'save', 'pak', 'ahok'];1
+303;['pak', 'ahok', 'bukti', 'kalau', 'jakarta', 'hidup', 'mandiri', 'ayo', 'save', 'pak', 'ahok'];1
+304;['pak', 'ahok', 'selalu', 'tindak', 'adil', 'tidak', 'pandang', 'siapa', 'ayo', 'save', 'pak', 'ahok'];1
+305;['hebat', 'ahok', 'kampanye', 'bukan', 'hadir', 'dukung', 'oleh', 'dukung', 'belah'];1
+306;['tinggal', 'sarlito', 'bela', 'ahok', 'tulis', 'islam', 'tuhan', 'perlu', 'bela'];1
+307;['tolak', 'datang', 'ahok', 'kampanye', 'lucu', 'alat', 'raga', 'kostum', 'selalu', 'lengkap'];1
+308;['a', 'wah', 'nista', 'agama', 'b', 'apa', 'lah', 'kan', 'bukan', 'ahok', 'bersamabelankri', 'jagapancasila'];1
+309;['begini', 'di', 'dakwah', 'kan', 'selalu', 'mana', 'hati', 'benar', 'ber', 'tuhan'];1
+310;['cathy', 'sharon', 'suka', 'dekat', 'ahok', 'selebriti', 'cathy', 'sharon', 'aku', 'sangat', 'suka', 'cara', 'dekat'];1
+311;['kalau', 'bukan', 'ahok', 'kasus', 'kaya', 'gin', 'masalah', 'bersamabelankri', 'jagapancasila'];1
+312;['pak', 'ahok', 'selalu', 'utama', 'penting', 'warga', 'penting', 'pribadi', 'ayo', 'save', 'pak', 'ahok'];1
+313;['memang', 'kasus', 'kemarin', 'jatuh', 'pak', 'ahok', 'sih', 'kaya', 'bersamabelankri', 'jagapancasila'];1
+314;['bang', 'memang', 'tanggal', 'november', 'yang', 'pro', 'ahok', 'mau', 'pawai', 'mohon', 'info', 'nya'];1
+315;['jakarta', 'pak', 'ahok', 'bisa', 'apa', 'untung', 'aa', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+316;['tetap', 'semangat', 'pak', 'ahok', 'tuhan', 'selalu', 'orang', 'percaya', 'god', 'bless', 'you', 'pak'];1
+317;['pak', 'ahok', 'seperti', 'lain', 'hanya', 'modal', 'janji', 'ayo', 'save', 'pak', 'ahok'];1
+318;['kalau', 'bicara', 'bukan', 'ahok', 'kok', 'adem', 'ayem', 'ya', 'bersamabelankri', 'jagapancasila'];1
+319;['pak', 'ahok', 'korban', 'iya', 'korban', 'orang', 'ingin', 'jatuh', 'ayo', 'save', 'pak', 'ahok'];1
+320;['tata', 'kota', 'jakarta', 'henti', 'sia', 'sia', 'tanpa', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+321;['ahok', 'nista', 'agama', 'mui', 'organisasi', 'jelas', 'mui', 'lebih', 'baik', 'bubar'];1
+322;['main', 'bagaimana', 'tv', 'jam', 'hari', 'hari', 'minggu', 'berita', 'baik', 'ahok', 'jelek', 'lawan'];1
+323;['bukti', 'pak', 'ahok', 'korupsi', 'sekarang', 'jakarta', 'lebih', 'indah', 'ayo', 'save', 'pak', 'ahok'];1
+324;['pimpin', 'tegas', 'semangat', 'pak', 'ahok', 'moga', 'selalu', 'lindung', 'ayo', 'save', 'pak', 'ahok'];1
+325;['nuduh', 'islam', 'liberal', 'kalo', 'kamu', 'islam', 'apa', 'maaf', 'tanya', 'mulut', 'islami', 'sangat', 'salut'];1
+326;['prihatin', 'adik', 'zalim', 'kakak', 'angkat', 'ahok', 'sambang', 'mabes', 'polri', 'ayah', 'andi', 'analta', 'amir'];1
+327;['hikayat', 'agung', 'podomoro', 'ppp', 'djan', 'faridz', 'kontrak', 'politik', 'ahok', 'tak', 'gugur'];1
+328;['kalo', 'agama', 'mungkin', 'nista', 'untuk', 'hukum', 'ikut', 'proses', 'polisi', 'dulu', 'kan'];1
+329;['allah', 'ajar', 'u', 'doa', 'musuh', 'baik', 'orang', 'satu', 'malah', 'balik', 'ajar', 'islam', 'yang', 'anut'];1
+330;['jakarta', 'dulu', 'kumuh', 'kini', 'lebih', 'tata', 'nyata', 'berkat', 'pimpin', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+331;['hari', 'anak', 'anak', 'usia', 'dini', 'mulai', 'erti', 'orang', 'sorban', 'tentu', 'baik', 'bua'];1
+332;['betul', 'pak', 'cukup', 'doa', 'kalau', 'masalah', 'sangkut', 'besar', 'ayo', 'save', 'pak', 'ahok'];1
+333;['mana', 'kemarin', 'koar', 'masalah', 'nista', 'agama', 'kok', 'diam', 'ada', 'duit', 'deletefpi'];1
+334;['bego', 'orang', 'kalau', 'hilang', 'ahok', 'indonesia', 'hilang', 'bhineka', 'ada', 'malah', 'diskriminasi'];1
+335;['apa', 'anak', 'gendong', 'ahok', 'ibu', 'sendiri', 'bung', 'antri', 'ingin', 'anak', 'gendong', 'ahok', 'jan'];1
+336;['apa', 'ahok', 'minta', 'tuhan', 'hidup', 'rasulullah', 'jelas', 'hina', 'agama', 'ahok', 'apa', 'urus', 'sama', 'fpi'];1
+337;['just', 'info', 'beberapa', 'waktu', 'kami', 'jempol', 'rakyat', 'lebih', 'fokus', 'sorot', 'kasus', 'ahok', 'utuh', 'nkri'];1
+338;['jakarta', 'dulu', 'semrawut', 'kini', 'lebih', 'tata', 'nyata', 'berkat', 'pimpin', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+339;['benar', 'nyata', 'kata', 'pak', 'ahok', 'soal', 'tidak', 'mau', 'cuti', 'salah', 'satu', 'poin', 'siap', 'hadap', 'musim', 'hujan'];1
+340;['ayo', 'semangat', 'pak', 'dki', 'butuh', 'sosok', 'pimpin', 'seperti', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+341;['buat', 'yakin', 'percaya', 'benar', 'sungguh', 'di', 'diri', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+342;['bangun', 'jakarta', 'henti', 'sia', 'sia', 'pak', 'ahok', 'bukan', 'pimpin', 'jakarta', 'ayo', 'save', 'pak', 'ahok'];1
+343;['pimpin', 'jakarta', 'ya', 'pak', 'ahok', 'jakarta', 'lebih', 'indah', 'tentram', 'ayo', 'save', 'pak', 'ahok'];1
+345;['para', 'dukung', 'ahok', 'akan', 'caci', 'balas', 'benci', 'kami', 'kelompok', 'waras'];1
+346;['wajib', 'cari', 'tahu', 'bayar', 'siapa', 'hingga', 'rusuh', 'pak', 'ahok', 'siapa', 'takut', 'kalah', 'apa', 'massa'];1
+347;['salam', 'jari', 'ahok', 'djarot', 'bukti', 'ahok', 'djarot', 'salam', 'jari', 'jalan', 'suci', 'susu', 'ciracas'];1
+348;['tunjuk', 'langkah', 'baik', 'pak', 'ahok', 'cipta', 'masa', 'depan', 'jakarta', 'sejahtera', 'ayo', 'save', 'pak', 'ahok'];1
+349;['tweet', 'si', 'felix', 'lihat', 'empatik', 'awal', 'padahal', 'tuju', 'tetap', 'serang', 'ahok', 'sama', 'sekali', 'tak', 'respek', 'buat'];1
+350;['niat', 'dukung', 'ahok', 'bukan', 'niat', 'ahok', 'sebentar', 'kalau', 'salah', 'kan', 'siap', 'proses'];1
+351;['ara', 'bisa', 'dikte', 'preman', 'perlu', 'tekan', 'bukan', 'muslim', 'benci', 'ahok', 'preman', 'ibu', 'ibu', 'a'];1
+352;['jakarta', 'pak', 'ahok', 'pak', 'ahok', 'jakarta', 'kami', 'pak', 'ahok', 'indonesia', 'ayo', 'save', 'pak', 'ahok'];1
+353;['cagub', 'kocar', 'kacir', 'cari', 'dukung', 'eh', 'ahok', 'malah', 'datang', 'dukung', 'sendiri', 'save', 'ahok', 'ahok', 'djarot'];1
+354;['nah', 'begini', 'respon', 'bijak', 'dukung', 'tenang', 'sempat', 'curhat', 'kakak', 'angkat', 'ungkap', 'salah', 'k', 'ahok', 'via'];1
+355;['apa', 'malu', 'sih', 'kamu', 'orang', 'apa', 'kamu', 'malu', 'bilang', 'kalau', 'kamu', 'orang', 'bela', 'si', 'ahok', 'aku', 'sih', 'biar', 'fair'];1
+356;['manusia', 'memang', 'makhluk', 'dosa', 'pak', 'ahok', 'dan', 'harus', 'maaf', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+357;['sekalipun', 'kriminalisasi', 'sakit', 'zalim', 'jangan', 'pernah', 'serah', 'apa', 'ahok', 'salamduajari', 'ahok', 'djarot'];1
+358;['wajib', 'baca', 'ahli', 'tafsir', 'asal', 'mesir', 'tawar', 'diri', 'bantu', 'ahok', 'bantah', 'bukan', 'minta', 'presiden', 'jokowi', 'tribun', 'manado'];1
+359;['pokok', 'pak', 'ahok', 'baik', 'jakarta', 'lain', 'benar', 'bikin', 'jakarta', 'baik', 'ayo', 'save', 'pak', 'ahok'];1
+360;['pak', 'ahok', 'bukti', 'beliau', 'bisa', 'pimpin', 'jakarta', 'kami', 'terus', 'dukung', 'ayo', 'save', 'pak', 'ahok'];1
+361;['ahok', 'nista', 'agama', 'justru', 'marah', 'marah', 'yang', 'nista', 'agama', 'agama', 'ajar', 'jadi', 'manusia', 'marah'];1
+362;['apa', 'veronika', 'mama', 'minta', 'rumah', 'sakit', 'pada', 'istri', 'marah', 'ahok', 'maling', 'uang', 'ara', 'ayo', 'save', 'pak', 'ahok'];1
+363;['pening', 'sana', 'habis', 'duit', 'ratus', 'milyar', 'buat', 'bayar', 'hater', 'ahok', 'gagal', 'duit', 'jangan', 'pro'];1
+364;['menang', 'pilkada', 'maksain', 'hendak', 'mungkin', 'ahok', 'mundur', 'cara', 'licik', 'bang', 'mending', 'golput', 'kalau', 'g'];1
+365;['tuju', 'ahok', 'lebih', 'baik', 'bebas', 'ormas', 'mau', 'rusuh', 'ayo', 'diam', 'ngelunjak', 'kira', 'takut', 'ape', 'kamu', 'jual', 'b'];1
+366;['ara', 'hukum', 'teriak', 'ahok', 'di', 'hukum', 'nyata', 'hukum', 'versi', 'bigot', 'seperti', 'gin', 'ikut', 'hendak', 'sep'];1
+367;['sih', 'pilih', 'ahok', 'saya', 'rasa', 'langsung', 'ubah', 'ubah', 'lama', 'saya', 'pikir', 'cuma', 'bullshit', 'politikus'];1
+368;['ahok', 'kerja', 'benar', 'kira', 'nista', 'agama', 'usut', 'demo', 'jelas', 'teroris', 'bom', 'aku', 'islam', 'anak', 'tinggal', 'biar', 'ironi'];1
+369;['semangat', 'segenap', 'dukung', 'harap', 'pak', 'ahok', 'terus', 'maju', 'bapak', 'bisa', 'ayo', 'save', 'pak', 'ahok'];1
+370;['pak', 'ahok', 'pimping', 'sangat', 'arif', 'bijaksana', 'banyak', 'peduli', 'masyarakat', 'kecil', 'ayo', 'save', 'pak', 'ahok'];1
+371;['sini', 'dukung', 'pak', 'ahok', 'terus', 'maju', 'jadi', 'bapak', 'terus', 'semangat', 'maju', 'terus', 'ayo', 'save', 'pak', 'ahok'];1
+372;['bela', 'pak', 'ahok', 'bukan', 'saya', 'tionghoa', 'karena', 'memang', 'ahok', 'pantas', 'di', 'bela', 'ayo', 'save', 'pak', 'ahok'];1
+373;['mau', 'bilang', 'kafir', 'masyarakat', 'kecil', 'rasa', 'langsung', 'mudah', 'birokrasi', 'sejak', 'ahok', 'jabat', 'terima', 'kasih', 'ahok'];1
+374;['pak', 'ahok', 'di', 'adil', 'i', 'arti', 'laku', 'cara', 'adil', 'sekarang', 'banyak', 'hujat', 'keji', 'adil', 'ayo', 'save', 'pak', 'ahok'];1
+375;['warga', 'nasi', 'bungkus', 'laskar', 'efpei', 'hatei', 'efui', 'emui', 'pekaes', 'intai', 'ahok', 'mana', 'pergi', 'kacau'];1
+376;['nyok', 'coblos', 'ahok', 'djarot', 'salam', 'jari', 'ahok', 'djarot', 'tetap', 'ahok', 'djarot', 'baru', 'jakarta'];1
+377;['coba', 'buka', 'timeline', 'follow', 'aku', 'pula', 'yang', 'blok', 'dah', 'tahu', 'dulu', 'aku', 'ahok', 'sangat', 'anti', 'fpi'];1
+378;['tetap', 'dukung', 'pak', 'ahok', 'ingin', 'jakarta', 'tahun', 'besok', 'jadi', 'lebih', 'baik', 'dari', 'dukung', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+379;['kalo', 'layan', 'jakarta', 'kurang', 'bagus', 'rasa', 'layan', 'masyarakat', 'sekarang', 'bilang', 'aduin', 'ahok', 'lho', 'apa'];1
+380;['orang', 'jujur', 'susah', 'hidup', 'eri', 'rampok', 'maju', 'terus', 'pak', 'ahok', 'jangan', 'mau', 'kalah', 'sama', 'orang', 'murtad', 'ayo', 'save', 'pak', 'ahok'];1
+381;['jujur', 'ahok', 'peleset', 'kata', 'masalah', 'sengaja', 'goreng', 'cuma', 'ahok', 'ikut', 'pilkada', 'aku', 'kotor', 'kecut'];1
+382;['lansia', 'sejahtera', 'jakarta', 'maju', 'salam', 'jari', 'ahok', 'djarot', 'tetap', 'ahok', 'djarot', 'jalan', 'suci', 'susu', 'ciracas'];1
+383;['punya', 'tetangga', 'satu', 'kampung', 'belitung', 'bisa', 'andal', 'padahal', 'ahli', 'hukum', 'nama', 'apa', 'mesti', 'pak', 'ahok', 'nyolong', 'apbd', 'dulu', 'baru', 'bela'];1
+384;['apa', 'doi', 'sensitif', 'ma', 'ahok', 'susah', 'cari', 'objek', 'jakarta', 'sudah', 'susah', 'malak', 'kiri', 'kanan', 'save', 'pak', 'ahok', 'savenkri'];1
+385;['bahagia', 'orang', 'dki', 'punya', 'pimpin', 'kaya', 'pak', 'ahok', 'kita', 'semua', 'biar', 'pak', 'ahok', 'juang', 'sendiri', 'ayo', 'save', 'pak', 'ahok'];1
+386;['hanya', 'lihat', 'sisi', 'buruk', 'bapak', 'tidak', 'lihat', 'baik', 'pak', 'ahok', 'tidak', 'salah', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+387;['prof', 'kecewa', 'calon', 'pilkada', 'dki', 'jadi', 'dukung', 'lawan', 'ahok', 'nanti', 'calon', 'untung', 'betul', 'prof'];1
+388;['puluh', 'orang', 'kumpul', 'adil', 'juta', 'hrp', 'cemas', 'tunggu', 'hasil', 'kongko', 'ahok', 'cuek', 'pilih', 'ketemu', 'warga', 'memang', 'tokoh', 'langka'];1
+389;['semua', 'orasi', 'salah', 'yang', 'fitnah', 'banyak', 'pak', 'ahok', 'korban', 'semangat', 'terus', 'pak', 'ayo', 'save', 'pak', 'ahok'];1
+390;['kalo', 'pak', 'ahok', 'sangka', 'rusuh', 'kami', 'dukung', 'pak', 'ahok', 'bar', 'bar', 'rasional', 'emosional', 'ahok', 'bukan', 'gala', 'gala'];1
+391;['bung', 'din', 'kok', 'pikir', 'atif', 'terus', 'sama', 'ahok', 'sama', 'bung', 'sempurna', 'jaga', 'martabat', 'nama', 'besar', 'bung', 'din', 'bawa', 'nyaman'];1
+392;['pimpin', 'jakarta', 'ya', 'pak', 'ahok', 'percaya', 'pak', 'ahok', 'bilas', 'semua', 'rintang', 'jatuh', 'fitnah', 'ayo', 'save', 'pak', 'ahok'];1
+393;['pak', 'ahok', 'pimpin', 'hebat', 'hanya', 'orang', 'hebat', 'yang', 'terus', 'usaha', 'kuat', 'tenaga', 'maju', 'ayo', 'save', 'pak', 'ahok'];1
+394;['orang', 'paling', 'lihat', 'busuk', 'niat', 'kemarin', 'gagal', 'fokus', 'demo', 'ahok', 'dia', 'tahu', 'niat', 'jelek', 'mau', 'impeachment', 'presiden', 'munafik'];1
+395;['oalah', 'jonru', 'rasa', 'pilpres', 'tidak', 'bayar', 'ahok', 'saya', 'bela', 'orang', 'kerja', 'jujur', 'berani', 'bawa', 'ubah', 'baik', 'buat', 'jakarta'];1
+396;['tuhan', 'tak', 'tidur', 'tuhan', 'maha', 'adil', 'saat', 'adil', 'datang', 'nya', 'tetap', 'tegar', 'pak', 'ahok', 'siap', 'dukung', 'ayo', 'save', 'pak', 'ahok'];1
+397;['jakarta', 'dulu', 'penuh', 'sampah', 'kini', 'lebih', 'tata', 'nyata', 'berkat', 'pimpin', 'pak', 'ahok', 'pimpin', 'jakarta', 'ya', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
+398;['ribut', 'mau', 'sangka', 'tidak', 'puas', 'tuju', 'mereka', 'benar', 'jegal', 'ahok', 'takut', 'saing', 'ahokhormatihukum'];1
+399;['jakarta', 'dulu', 'penuh', 'koruptor', 'kini', 'lebih', 'bersih', 'nyata', 'berkat', 'pimpin', 'pak', 'ahok', 'pimpin', 'jakarta', 'ya', 'pak', 'ahok', 'ayo', 'save', 'pak', 'ahok'];1
