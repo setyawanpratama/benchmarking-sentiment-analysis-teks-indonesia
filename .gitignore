@@ -1,0 +1,8 @@
+featureExtraction/word2vec/corpus/idwiki-latest-pages-articles.xml.bz2
+featureExtraction/pos/all_indo_man_tag_corpus_model.crf.tagger
+featureExtraction/fasttext/models/model_fasttext_skipgram.model
+featureExtraction/fasttext/models/model_fasttext_skipgram.model.wv.vectors_ngrams.npy
+featureExtraction/fasttext/models/model_fasttext.model
+featureExtraction/fasttext/models/model_fasttext.model.wv.vectors_ngrams.npy
+featureExtraction/word2vec/models/model_cbow.model
+featureExtraction/word2vec/models/model_skipgram.model
