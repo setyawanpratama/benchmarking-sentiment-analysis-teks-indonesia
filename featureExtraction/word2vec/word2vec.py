@@ -20,3 +20,6 @@ def word2vec(filepath):
     model_skipgram.save("./models/model_skipgram.model")
 
     return model_cbow, model_skipgram
+
+def word2vec_corpus(filepath):
+    
