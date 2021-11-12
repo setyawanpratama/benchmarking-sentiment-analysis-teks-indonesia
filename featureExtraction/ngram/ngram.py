@@ -5,9 +5,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 def ngram(filepath, n):
     df = pd.read_csv(filepath, sep="\;\;\;", engine="python", header=0, index_col=False)
+    df.dropna(axis=0, inplace=True)
     cv = CountVectorizer(ngram_range=(1, n), max_features=2500)
     unigram_matrix = cv.fit_transform(df["teks"].tolist())
     feat_name = cv.get_feature_names()
-    print(unigram_matrix.astype(np.float32).dtype)
 
-    return unigram_matrix, feat_name
+    return unigram_matrix.toarray(), feat_name

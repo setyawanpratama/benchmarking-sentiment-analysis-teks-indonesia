@@ -2,10 +2,10 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-def run_tfidf_tweet(filename):
-    df = pd.read_csv(filename, sep=";;;", engine='python')
-
+def run_tfidf_tweet(filepath):
+    df = pd.read_csv(filepath, sep="\;\;\;", engine="python", header=0, index_col=False)
+    df.dropna(axis=0, inplace=True)
     vectorizer = TfidfVectorizer()
     tfidf_feature = vectorizer.fit_transform(df['teks'].tolist())
 
-    return tfidf_feature
+    return tfidf_feature.toarray()

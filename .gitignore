@@ -10,3 +10,4 @@ featureExtraction/word2vec/corpus/idwiki_new_lower.txt
 featureExtraction/glove/corpus/idwiki_new_lower.txt
 featureExtraction/glove/corpus/idwiki-latest-pages-articles.xml.bz2
 __pycache__/
+featureExtractionResults/*

@@ -1,12 +1,15 @@
+import os
 import numpy as np
 import pandas as pd
 
 LEXICON_LIST = ["ID-OpinionWords", "InSet", "vania"]
 
 def run_lexiconVania_tweet(filename):
-    pos = pd.read_csv("lexicon-source/vania/positive.txt", header=None, names=["pos"])
+    CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
+
+    pos = pd.read_csv(os.path.join(CURRENT_DIR, "lexicon-source/vania/positive.txt"), header=None, names=["pos"])
     list_pos = pos["pos"].tolist()
-    neg = pd.read_csv("lexicon-source/vania/negative.txt", header=None, names=["neg"])
+    neg = pd.read_csv(os.path.join(CURRENT_DIR, "lexicon-source/vania/negative.txt"), header=None, names=["neg"])
     list_neg = neg["neg"].tolist()
 
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
@@ -37,13 +40,15 @@ def run_lexiconVania_tweet(filename):
     # df_hasil = pd.DataFrame(fitur_sentimen_all, columns=emosi)
     # return df_hasil
 
-    return fitur_sentimen_all, emosi
+    return np.array(fitur_sentimen_all), emosi
 
 
 def run_lexiconID_tweet(filename):
-    pos = pd.read_csv("lexicon-source/ID-OpinionWords/positive.txt", header=None, names=["pos"])
+    CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
+
+    pos = pd.read_csv(os.path.join(CURRENT_DIR, "lexicon-source/ID-OpinionWords/positive.txt"), header=None, names=["pos"])
     list_pos = pos["pos"].tolist()
-    neg = pd.read_csv("lexicon-source/ID-OpinionWords/negative.txt", header=None, names=["neg"])
+    neg = pd.read_csv(os.path.join(CURRENT_DIR, "lexicon-source/ID-OpinionWords/negative.txt"), header=None, names=["neg"])
     list_neg = neg["neg"].tolist()
 
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
@@ -77,10 +82,12 @@ def run_lexiconID_tweet(filename):
 
 
 def run_lexiconInset_tweet(filename):
-    pos = pd.read_csv("lexicon-source/InSet/positif.txt", header=0, sep="\t")
+    CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
+
+    pos = pd.read_csv(os.path.join(CURRENT_DIR, "lexicon-source/InSet/positive.tsv"), header=0, sep="\t")
     list_pos = pos["word"].tolist()
     dict_pos = dict(zip(pos.word, pos.weight))
-    neg = pd.read_csv("lexicon-source/InSet/negatif.txt", header=0, sep="\t")
+    neg = pd.read_csv(os.path.join(CURRENT_DIR, "lexicon-source/InSet/negative.tsv"), header=0, sep="\t")
     list_neg = neg["word"].tolist()
     dict_neg = dict(zip(neg.word, neg.weight))
 
@@ -92,7 +99,7 @@ def run_lexiconInset_tweet(filename):
     emosi = ["positif", "negatif"]
     fitur_sentimen_all = []
 
-    for tweet in df["tweet"].tolist():
+    for tweet in df["teks"].tolist():
         # inisiasi value
         value = [0, 0]
         emosi_value = {}
@@ -111,4 +118,4 @@ def run_lexiconInset_tweet(filename):
 
     # df_hasil = pd.DataFrame(fitur_sentimen_all, columns=emosi)
 
-    return fitur_sentimen_all, emosi
+    return np.array(fitur_sentimen_all), emosi
