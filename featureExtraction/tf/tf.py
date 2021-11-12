@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 
 
-def tf(filepath, n):
+def term_freq(filepath, n):
     df = pd.read_csv(filepath, sep=";;;", engine="python")
     cv = CountVectorizer(ngram_range=(1, n))
     tf_matrix = cv.fit_transform(df["teks"].tolist())
