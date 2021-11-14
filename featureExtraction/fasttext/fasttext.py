@@ -1,4 +1,3 @@
-import os
 from gensim import models
 import numpy as np
 import pandas as pd
