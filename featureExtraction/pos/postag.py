@@ -1,14 +1,17 @@
 import nltk
+import os
+import numpy as np
 import pandas as pd
 from nltk import CRFTagger
 from collections import Counter
 from sklearn.model_selection import train_test_split
 
 def run_postag(filename):
+    CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
 
     ct = CRFTagger()
-    ct.set_model_file("all_indo_man_tag_corpus_model.crf.tagger")
+    ct.set_model_file(os.path.join(CURRENT_DIR,"all_indo_man_tag_corpus_model.crf.tagger"))
     pos_feat_list = []
     count_tag = []
     for tweet in df["teks"].tolist():
@@ -19,4 +22,4 @@ def run_postag(filename):
         pos_feat = (pos_count['JJ'], pos_count['NEG'], pos_count['RB'], pos_count['UH'])
         pos_feat_list.append(pos_feat)
 
-    return pos_feat_list
+    return np.array(pos_feat_list)

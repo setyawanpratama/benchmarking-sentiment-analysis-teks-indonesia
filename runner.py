@@ -62,14 +62,14 @@ def main(hf, templated, clean, raw):
     init_time = time.time()
     for i in templated:
         print("Running: {:<20} --> {:<100}".format("Orthography", i), end="\r")
-        result_ortho = run_ortografi(i)
+        result_ortho, features = run_ortografi(i)
         hf.create_dataset("ortho" + i, data=result_ortho)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Orthography")
 
     # POS-tag
     init_time = time.time()
-    for i in templated:
+    for i in clean:
         print("Running: {:<20} --> {:<100}".format("POSTag", i), end="\r")
         result_pos = run_postag(i)
         hf.create_dataset("postag" + i, data=result_pos)
