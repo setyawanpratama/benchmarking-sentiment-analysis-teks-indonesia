@@ -1,16 +1,17 @@
-import nltk
+import numpy as np
 import pandas as pd
 
-def ekstraksi_ortografi(filename):    
-    df = pd.read_csv(filename, delimiter=";;;", engine='python', header=0)
+def run_ortografi(filepath):
+    df = pd.read_csv(filepath, sep="\;\;\;", engine="python", header=0, index_col=False)
+    df.dropna(axis=0, inplace=True)
 
+    features = ["char_len", "word_len", "symbol"]
     all_orto_feat = []
-    for tw in df["tweet"].tolist():
-        exclamation_count = sum((1 for c in tw if c == "!"))
-        word_len = len(nltk.word_tokenize(tw))
-        char_len = len(tw)
-        orto_feat = [exclamation_count, word_len, char_len]
+    for tweet in df["teks"].tolist():
+        char_len = len(tweet)
+        word_len = len(tweet.split(" "))
+        symbol = sum((1 for c in tweet if not c.isalnum()))
+        orto_feat = [char_len, word_len, symbol]
         all_orto_feat.append(orto_feat)
 
-    df_hasil = pd.DataFrame(all_orto_feat, columns=["exclamation_count", "word_len", "char_len"])
-    return df_hasil
+    return np.array(all_orto_feat), features

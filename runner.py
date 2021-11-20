@@ -58,6 +58,24 @@ def main(hf, templated, clean, raw):
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-TFIDF")
 
+    # Orthography
+    init_time = time.time()
+    for i in templated:
+        print("Running: {:<20} --> {:<100}".format("Orthography", i), end="\r")
+        result_ortho = run_ortografi(i)
+        hf.create_dataset("ortho" + i, data=result_ortho)
+    end_time = time.time()
+    get_time_diff(init_time, end_time, "FE-Orthography")
+
+    # POS-tag
+    init_time = time.time()
+    for i in templated:
+        print("Running: {:<20} --> {:<100}".format("POSTag", i), end="\r")
+        result_pos = run_postag(i)
+        hf.create_dataset("postag" + i, data=result_pos)
+    end_time = time.time()
+    get_time_diff(init_time, end_time, "FE-POS Tag")
+
     # Lex-Vania
     init_time = time.time()
     for i in clean:
@@ -75,6 +93,15 @@ def main(hf, templated, clean, raw):
         hf.create_dataset("lex_inset" + i, data=result_lexiconInSet)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Lexicon InSet")
+
+    # Lex-Combine
+    init_time = time.time()
+    for i in clean:
+        print("Running: {:<20} --> {:<100}".format("lex_combined", i), end="\r")
+        run_lexiconCombined, sentimen = run_lexiconCombined_tweet(i)
+        hf.create_dataset("lex_combined" + i, data=run_lexiconCombined)
+    end_time = time.time()
+    get_time_diff(init_time, end_time, "FE-Lexicon Combined")
 
     # FastText CBOW
     init_time = time.time()

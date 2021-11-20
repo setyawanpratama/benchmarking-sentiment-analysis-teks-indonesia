@@ -4,7 +4,7 @@ from nltk import CRFTagger
 from collections import Counter
 from sklearn.model_selection import train_test_split
 
-def ekstraksi_pos(filename):
+def run_postag(filename):
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
 
     ct = CRFTagger()
@@ -12,7 +12,7 @@ def ekstraksi_pos(filename):
     pos_feat_list = []
     count_tag = []
     for tweet in df["teks"].tolist():
-        token = nltk.word_tokenize(tweet)
+        token = eval(tweet)
         tag = ct.tag_sents([token])
         flat_tag = [item for sublist in tag for item in sublist]
         pos_count = Counter([j for i, j in flat_tag])
