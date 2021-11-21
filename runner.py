@@ -31,14 +31,23 @@ os.mkdir(os.path.join(NEW_DIR, "models"))
 
 
 def main(hf, templated, clean, raw):
-    # Unigram
+    # Bigram
     init_time = time.time()
     for i in templated:
-        print("Running: {:<20} --> {:<100}".format("Unigram", i), end="\r")
-        result_unigram, feat_name = ngram(i, 1)
-        hf.create_dataset("unigram" + i, data=result_unigram)
+        print("Running: {:<20} --> {:<100}".format("Bigram", i), end="\r")
+        result_bigram, feat_name = ngram(i, 2)
+        hf.create_dataset("bigram" + i, data=result_bigram)
     end_time = time.time()
-    get_time_diff(init_time, end_time, "FE-Unigram")
+    get_time_diff(init_time, end_time, "FE-Bigram")
+
+    # Trigram
+    init_time = time.time()
+    for i in templated:
+        print("Running: {:<20} --> {:<100}".format("Trigram", i), end="\r")
+        result_trigram, feat_name = ngram(i, 3)
+        hf.create_dataset("trigram" + i, data=result_trigram)
+    end_time = time.time()
+    get_time_diff(init_time, end_time, "FE-trigram")
 
     # TF
     init_time = time.time()
