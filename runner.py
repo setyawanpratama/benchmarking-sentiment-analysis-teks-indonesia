@@ -112,15 +112,16 @@ def main(hf, templated, clean, raw):
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Lexicon Combined")
 
+
     # FastText CBOW
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("FastText", i), end="\r")
-        result_fasttext_cbow = fasttext(i)
         fasttext_current_dir = os.path.join(NEW_DIR, "models\\fasttext_{}".format(i.split("/")[-1]))
         os.mkdir(fasttext_current_dir)
-        result_fasttext_cbow.save(os.path.join(fasttext_current_dir, "fasttext_skipgram_model.model"))
-        # hf.create_dataset("fasttextCBOW" + i, data=result_fasttext_cbow)
+        model_fasttext_cbow, result_fasttext_cbow = fasttext(i)
+        model_fasttext_cbow.save(os.path.join(fasttext_current_dir, "fasttext_skipgram_model.model"))
+        hf.create_dataset("fasttext_cbow_" + i, data=result_fasttext_cbow)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-FastTextCBOW")
 
@@ -128,144 +129,149 @@ def main(hf, templated, clean, raw):
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("FastTextSG", i), end="\r")
-        result_fasttext_sg = fasttextsg(i)
         fasttext_current_dir = os.path.join(NEW_DIR, "models\\fasttextSG_{}".format(i.split("/")[-1]))
         os.mkdir(fasttext_current_dir)
-        result_fasttext_sg.save(os.path.join(fasttext_current_dir, "fasttext_skipgram_model.model"))
-        # hf.create_dataset("fasttextSG" + i, data=result_fasttext_sg)
+        model_fasttext_sg, result_fasttext_sg = fasttextsg(i)
+        model_fasttext_sg.save(os.path.join(fasttext_current_dir, "fasttext_skipgram_model.model"))
+        hf.create_dataset("fasttext_sg_" + i, data=result_fasttext_sg)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-FastTextSG")
+
 
     # WORD2VEC 100
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec CBHS100", i), end="\r")
-        result_w2vhs100 = word2vec_cbow(i, 1, 0, 100)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VCBHS100_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vhs100.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        model_w2vhs100, feat_w2vhs100 = word2vec_cbow(i, 1, 0, 100)
+        model_w2vhs100.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        hf.create_dataset("w2v_cbhs_100" + i, data=feat_w2vhs100)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec CBHS Vec100")
 
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec CBNEG100", i), end="\r")
-        result_w2vneg100 = word2vec_cbow(i, 0, 5, 100)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VCBNEG100_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vneg100.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        model_w2vneg100, result_w2vneg100 = word2vec_cbow(i, 0, 5, 100)
+        model_w2vneg100.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        hf.create_dataset("w2v_cbneg_100" + i, data=result_w2vneg100)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec CBNEG Vec100")
     
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec SGHS100", i), end="\r")
-        result_w2vhs100 = word2vec_sg(i, 1, 0, 100)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VSGHS100_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vhs100.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        model_w2vhs100, result_w2vhs100 = word2vec_sg(i, 1, 0, 100)
+        model_w2vhs100.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        hf.create_dataset("w2v_sghs_100" + i, data=result_w2vhs100)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec SGHS Vec100")
 
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec SGNEG100", i), end="\r")
-        result_w2vneg100 = word2vec_sg(i, 0, 5, 100)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VSGNEG100_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vneg100.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        model_w2vneg100, result_w2vneg100 = word2vec_sg(i, 0, 5, 100)
+        model_w2vneg100.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        hf.create_dataset("w2v_sgneg_100" + i, data=result_w2vneg100)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec SGNEG Vec100")
-
 
     # WORD2VEC 200
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec CBHS200", i), end="\r")
-        result_w2vhs200 = word2vec_cbow(i, 1, 0, 200)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VCBHS200_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vhs200.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        model_w2vhs200, result_w2vhs200 = word2vec_cbow(i, 1, 0, 200)
+        model_w2vhs200.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        hf.create_dataset("w2v_cbhs_200" + i, data=result_w2vhs200)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec CBHS Vec200")
 
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec CBNEG200", i), end="\r")
-        result_w2vneg200 = word2vec_cbow(i, 0, 5, 200)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VCBNEG200_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vneg200.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        model_w2vneg200, result_w2vneg200 = word2vec_cbow(i, 0, 5, 200)
+        model_w2vneg200.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        hf.create_dataset("w2v_cbneg_200" + i, data=result_w2vneg200)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec CBNEG Vec200")
     
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec SGHS200", i), end="\r")
-        result_w2vhs200 = word2vec_sg(i, 1, 0, 200)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VSGHS200_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vhs200.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        model_w2vhs200, result_w2vhs200 = word2vec_sg(i, 1, 0, 200)
+        model_w2vhs200.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        hf.create_dataset("w2v_sghs_200" + i, data=result_w2vhs200)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec SGHS Vec200")
 
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec SGNEG200", i), end="\r")
-        result_w2vneg200 = word2vec_sg(i, 0, 5, 200)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VSGNEG200_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vneg200.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        model_w2vneg200, result_w2vneg200 = word2vec_sg(i, 0, 5, 200)
+        model_w2vneg200.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        hf.create_dataset("w2v_sgneg_200" + i, data=result_w2vneg200)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec SGNEG Vec200")
 
-
-    
     # WORD2VEC 300
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec CBHS300", i), end="\r")
-        result_w2vhs300 = word2vec_cbow(i, 1, 0, 300)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VCBHS300_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vhs300.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        model_w2vhs300, result_w2vhs300 = word2vec_cbow(i, 1, 0, 300)
+        model_w2vhs300.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        hf.create_dataset("w2v_cbhs_300" + i, data=result_w2vhs300)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec CBHS Vec300")
 
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec CBNEG300", i), end="\r")
-        result_w2vneg300 = word2vec_cbow(i, 0, 5, 300)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VCBNEG300_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vneg300.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        model_w2vneg300, result_w2vneg300 = word2vec_cbow(i, 0, 5, 300)
+        model_w2vneg300.save(os.path.join(w2v_current_dir, "word2vec_cbow_model.model"))
+        hf.create_dataset("w2v_cbneg_300" + i, data=result_w2vneg300)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec CBNEG Vec300")
     
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec SGHS300", i), end="\r")
-        result_w2vhs300 = word2vec_sg(i, 1, 0, 300)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VSGHS300_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vhs300.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        model_w2vhs300, result_w2vhs300 = word2vec_sg(i, 1, 0, 300)
+        model_w2vhs300.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        hf.create_dataset("w2v_sghs_300" + i, data=result_w2vhs300)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec SGHS Vec300")
 
     init_time = time.time()
     for i in clean:
         print("Running: {:<20} --> {:<100}".format("Word2Vec SGNEG300", i), end="\r")
-        result_w2vneg300 = word2vec_sg(i, 0, 5, 300)
         w2v_current_dir = os.path.join(NEW_DIR, "models\\W2VSGNEG300_{}".format(i.split("/")[-1]))
         os.mkdir(w2v_current_dir)
-        result_w2vneg300.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        model_w2vneg300, result_w2vneg300 = word2vec_sg(i, 0, 5, 300)
+        model_w2vneg300.save(os.path.join(w2v_current_dir, "word2vec_skipgram_model.model"))
+        hf.create_dataset("w2v_sgneg_300" + i, data=result_w2vneg300)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-Word2Vec SGNEG Vec300")
-
-    # glove
-    # for i in clean:
-    #     result_fasttext = fasttext(i)
-    return 1
 
 
 def get_time_diff(init_time, end_time, desc):
