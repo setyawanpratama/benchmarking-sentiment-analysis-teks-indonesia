@@ -31,6 +31,15 @@ os.mkdir(os.path.join(NEW_DIR, "models"))
 
 
 def main(hf, templated, clean, raw):
+    # TF
+    init_time = time.time()
+    for i in templated:
+        print("Running: {:<20} --> {:<100}".format("TF", i), end="\r")
+        result_tf = term_freq(i, 1)
+        hf.create_dataset("term_freq" + i, data=result_tf)
+    end_time = time.time()
+    get_time_diff(init_time, end_time, "FE-TF")
+
     # Bigram
     init_time = time.time()
     for i in templated:
@@ -48,15 +57,6 @@ def main(hf, templated, clean, raw):
         hf.create_dataset("trigram" + i, data=result_trigram)
     end_time = time.time()
     get_time_diff(init_time, end_time, "FE-trigram")
-
-    # TF
-    init_time = time.time()
-    for i in templated:
-        print("Running: {:<20} --> {:<100}".format("TF", i), end="\r")
-        result_tf = term_freq(i, 1)
-        hf.create_dataset("term_freq" + i, data=result_tf)
-    end_time = time.time()
-    get_time_diff(init_time, end_time, "FE-TF")
 
     # TF_IDF
     init_time = time.time()
