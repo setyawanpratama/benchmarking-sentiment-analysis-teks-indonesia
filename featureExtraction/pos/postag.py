@@ -19,7 +19,7 @@ def run_postag(filename):
         tag = ct.tag_sents([token])
         flat_tag = [item for sublist in tag for item in sublist]
         pos_count = Counter([j for i, j in flat_tag])
-        pos_feat = (pos_count['JJ'], pos_count['NEG'], pos_count['RB'], pos_count['UH'])
+        pos_feat = [pos_count['JJ'], pos_count['NEG'], pos_count['RB'], pos_count['UH']]
         pos_feat_list.append(pos_feat)
 
     return np.array(pos_feat_list)

@@ -1,5 +1,4 @@
 import numpy as np
-from numpy.core.fromnumeric import mean
 import pandas as pd
 from gensim.models import Word2Vec
 
@@ -17,9 +16,11 @@ def word2vec_cbow(filepath, hierarchial_softmax, negative, vector_size):
     word2vec_arr=[]
     for tweet in data:
         row_mean_vector = (np.mean([model_cbow.wv[terms] for terms in tweet], axis=0)).tolist()
+        if not (type(row_mean_vector) is list):
+            row_mean_vector = [float(0) for i in range(vector_size)]
         word2vec_arr.append(row_mean_vector)
 
-    return model_cbow, word2vec_arr
+    return model_cbow, np.array(word2vec_arr)
 
 def word2vec_sg(filepath, hierarchial_softmax, negative, vector_size):
     df = pd.read_csv(filepath, delimiter=";", low_memory=False, header=0)
@@ -34,6 +35,8 @@ def word2vec_sg(filepath, hierarchial_softmax, negative, vector_size):
     word2vec_arr=[]
     for tweet in data:
         row_mean_vector = (np.mean([model_skipgram.wv[terms] for terms in tweet], axis=0)).tolist()
+        if not (type(row_mean_vector) is list):
+            row_mean_vector = [float(0) for i in range(vector_size)]
         word2vec_arr.append(row_mean_vector)
 
-    return model_skipgram, word2vec_arr
+    return model_skipgram, np.array(word2vec_arr)
