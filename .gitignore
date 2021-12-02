@@ -6,6 +6,7 @@ featureExtraction/fasttext/models/model_fasttext.model
 featureExtraction/fasttext/models/model_fasttext.model.wv.vectors_ngrams.npy
 featureExtraction/word2vec/models/model_cbow.model
 featureExtraction/word2vec/models/model_skipgram.model
+featureExtraction/word2vec/models_all/*
 featureExtraction/word2vec/corpus/idwiki_new_lower.txt
 featureExtraction/glove/corpus/idwiki_new_lower.txt
 featureExtraction/glove/corpus/idwiki-latest-pages-articles.xml.bz2
