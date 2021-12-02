@@ -15,4 +15,4 @@ def run_ortografi(filepath):
         orto_feat = [char_len, word_len, symbol, upper]
         all_orto_feat.append(orto_feat)
 
-    return np.array(all_orto_feat), features
+    return np.array(all_orto_feat), df["label"].tolist(), features

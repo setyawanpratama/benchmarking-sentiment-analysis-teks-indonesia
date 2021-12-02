@@ -8,4 +8,4 @@ def term_freq(filepath, n):
     cv = CountVectorizer(ngram_range=(1, n))
     tf_matrix = cv.fit_transform(df["teks"].tolist())
 
-    return tf_matrix.toarray()
+    return tf_matrix.toarray(), df["label"].tolist()

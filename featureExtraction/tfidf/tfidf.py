@@ -8,4 +8,4 @@ def run_tfidf_tweet(filepath):
     vectorizer = TfidfVectorizer()
     tfidf_feature = vectorizer.fit_transform(df['teks'].tolist())
 
-    return tfidf_feature.toarray()
+    return tfidf_feature.toarray(), df["label"].tolist()

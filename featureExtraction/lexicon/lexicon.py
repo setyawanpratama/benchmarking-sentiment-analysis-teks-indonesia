@@ -13,6 +13,7 @@ def run_lexiconVania_tweet(filename):
     list_neg = neg["neg"].tolist()
 
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
+    df.dropna(axis=0, inplace=True)
     # new_header = df.iloc[0] #grab the first row for the header
     # df = df[1:] #take the data less the header row
     # df.columns = new_header #set the header row as the df header
@@ -40,7 +41,7 @@ def run_lexiconVania_tweet(filename):
     # df_hasil = pd.DataFrame(fitur_sentimen_all, columns=emosi)
     # return df_hasil
 
-    return np.array(fitur_sentimen_all), emosi
+    return np.array(fitur_sentimen_all), df["label"].tolist(), emosi
 
 
 def run_lexiconID_tweet(filename):
@@ -52,6 +53,7 @@ def run_lexiconID_tweet(filename):
     list_neg = neg["neg"].tolist()
 
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
+    df.dropna(axis=0, inplace=True)
     # new_header = df.iloc[0] #grab the first row for the header
     # df = df[1:] #take the data less the header row
     # df.columns = new_header #set the header row as the df header
@@ -78,7 +80,7 @@ def run_lexiconID_tweet(filename):
 
     # df_hasil = pd.DataFrame(fitur_sentimen_all, columns=emosi)
 
-    return fitur_sentimen_all, emosi
+    return fitur_sentimen_all, df["label"].tolist(), emosi
 
 
 def run_lexiconInset_tweet(filename):
@@ -92,6 +94,7 @@ def run_lexiconInset_tweet(filename):
     dict_neg = dict(zip(neg.word, neg.weight))
 
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
+    df.dropna(axis=0, inplace=True)
     # new_header = df.iloc[0] #grab the first row for the header
     # df = df[1:] #take the data less the header row
     # df.columns = new_header #set the header row as the df header
@@ -118,7 +121,7 @@ def run_lexiconInset_tweet(filename):
 
     # df_hasil = pd.DataFrame(fitur_sentimen_all, columns=emosi)
 
-    return np.array(fitur_sentimen_all), emosi
+    return np.array(fitur_sentimen_all), df["label"].tolist(), emosi
 
 def run_lexiconCombined_tweet(filename):
     CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -137,6 +140,7 @@ def run_lexiconCombined_tweet(filename):
 
 
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
+    df.dropna(axis=0, inplace=True)
     # new_header = df.iloc[0] #grab the first row for the header
     # df = df[1:] #take the data less the header row
     # df.columns = new_header #set the header row as the df header
@@ -167,4 +171,4 @@ def run_lexiconCombined_tweet(filename):
 
     # df_hasil = pd.DataFrame(fitur_sentimen_all, columns=emosi)
 
-    return np.array(fitur_sentimen_all), emosi
+    return np.array(fitur_sentimen_all), df["label"].tolist(), emosi

@@ -10,4 +10,4 @@ def ngram(filepath, n):
     unigram_matrix = cv.fit_transform(df["teks"].tolist())
     feat_name = cv.get_feature_names()
 
-    return unigram_matrix.toarray(), feat_name
+    return unigram_matrix.toarray(), df["label"].tolist(), feat_name
