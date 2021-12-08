@@ -14,9 +14,6 @@ def run_lexiconVania_tweet(filename):
 
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
     df.dropna(axis=0, inplace=True)
-    # new_header = df.iloc[0] #grab the first row for the header
-    # df = df[1:] #take the data less the header row
-    # df.columns = new_header #set the header row as the df header
 
     emosi = ["positif", "negatif"]
     fitur_sentimen_all = []
@@ -28,7 +25,7 @@ def run_lexiconVania_tweet(filename):
         for i in range(len(emosi)):
             emosi_value[emosi[i]] = value[i]
 
-        list_kata = eval(tweet)
+        list_kata = tweet.split(" ")
         for k in list_kata:
             if k in list_pos:
                 emosi_value["positif"] += 1
@@ -37,9 +34,6 @@ def run_lexiconVania_tweet(filename):
 
         fitur_sentimen_perkalimat = list(emosi_value.values())
         fitur_sentimen_all.append(fitur_sentimen_perkalimat)
-
-    # df_hasil = pd.DataFrame(fitur_sentimen_all, columns=emosi)
-    # return df_hasil
 
     return np.array(fitur_sentimen_all), df["label"].tolist(), emosi
 
@@ -109,7 +103,7 @@ def run_lexiconInset_tweet(filename):
         for i in range(len(emosi)):
             emosi_value[emosi[i]] = value[i]
 
-        list_kata = eval(tweet)
+        list_kata = tweet.split(" ")
         for k in list_kata:
             if k in list_pos:
                 emosi_value["positif"] += int(dict_pos[k])
@@ -141,9 +135,6 @@ def run_lexiconCombined_tweet(filename):
 
     df = pd.read_csv(filename, delimiter=";", low_memory=False, header=0)
     df.dropna(axis=0, inplace=True)
-    # new_header = df.iloc[0] #grab the first row for the header
-    # df = df[1:] #take the data less the header row
-    # df.columns = new_header #set the header row as the df header
 
     emosi = ["positif_vania", "negatif_vania", "positif_inset", "negatif_inset"]
     fitur_sentimen_all = []
@@ -155,7 +146,7 @@ def run_lexiconCombined_tweet(filename):
         for i in range(len(emosi)):
             emosi_value[emosi[i]] = value[i]
 
-        list_kata = eval(tweet)
+        list_kata = tweet.split(" ")
         for k in list_kata:
             if k in list_pos1:
                 emosi_value["positif_vania"] += 1
@@ -168,7 +159,5 @@ def run_lexiconCombined_tweet(filename):
 
         fitur_sentimen_perkalimat = list(emosi_value.values())
         fitur_sentimen_all.append(fitur_sentimen_perkalimat)
-
-    # df_hasil = pd.DataFrame(fitur_sentimen_all, columns=emosi)
 
     return np.array(fitur_sentimen_all), df["label"].tolist(), emosi

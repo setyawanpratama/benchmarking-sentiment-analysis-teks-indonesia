@@ -5,7 +5,7 @@ def run_ortografi(filepath):
     df = pd.read_csv(filepath, sep="\;\;\;", engine="python", header=0, index_col=False)
     df.dropna(axis=0, inplace=True)
 
-    features = ["char_len", "word_len", "symbol"]
+    features = ["char_len", "word_len", "symbol", "upper"]
     all_orto_feat = []
     for tweet in df["teks"].tolist():
         char_len = len(tweet)
