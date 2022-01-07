@@ -26,3 +26,7 @@ membandingkan pendekatan klasifikasi sentimen rule-based, machine learning dan d
 * https://github.com/ichsanni/skripsi
 * https://github.com/ahmadchoirunnajib/Sentiment-Analysis-Ontology-Based
 * https://github.com/nadhifikbarw/ep-dataset
+
+### Link to models
+
+https://drive.google.com/drive/folders/1_npXMSDht6gXymQhPuDCEz99PV4UlReb?usp=sharing
